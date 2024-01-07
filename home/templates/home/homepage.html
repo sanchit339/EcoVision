@@ -1,0 +1,7 @@
+{% extends 'home/layout.html' %}
+
+{% block different_content %}
+    {% load static %}
+    <h2>Pollutant concentrations Percentage for {{city}} right now</h2>
+    <img src="{% static chartpath %}" alt="Pie Chart">
+{% endblock different_content %}

@@ -1,0 +1,10 @@
+{% extends 'home/layout.html' %}
+
+{% block different_content %}
+    <form action="{% url 'home' %}" method="POST">
+        {% csrf_token %}
+        <label for="city_name">Enter the City Name: </label>
+        <input type="text" name="CityName" id="city_name">
+        <input type="submit">
+    </form>
+{% endblock different_content %}

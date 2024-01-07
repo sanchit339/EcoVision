@@ -1,0 +1,7 @@
+{% extends 'home/layout.html' %}
+
+{% block different_content %}
+    {% load static %}
+    <h2>Prediction for CO concentrations for {{city}}</h2>
+    <img src="{% static analysispath %}" alt="Analysis Graph">
+{% endblock different_content %}
