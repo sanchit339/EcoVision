@@ -85,7 +85,7 @@ Future Prediction Inputing City name to predict next 30 days forecast for CO con
 ![Img6](readmeImages/img6.png)
 
 Debug Data in Windows PowerShell
-![Img7](readmeImages/img7.png)
+![Img7](readmeImages/img7.jpg)
 
 ![Img8](readmeImages/img8.png)
 
