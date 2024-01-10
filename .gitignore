@@ -1,2 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+local_settings.py
+
+# HTML, CSS, Bootstrap
+*.html~
+*.css~
+*.css.map
+*.min.css
+*.min.css.map
+*.min.js
+*.min.js.map
+*.html
+
+# NumPy, Pandas
+*.npy
+*.npz
+
+# Matplotlib
+__pycache__/
+.cache/
+
+# IDE files
+.vscode/
+.idea/
+
+# Ignore the virtual environment
+venv/
+env/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore secret keys and other sensitive information
 .env
 
